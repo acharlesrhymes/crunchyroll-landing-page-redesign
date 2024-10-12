@@ -1,1 +1,1 @@
-# crunchyroll-landing_page_redesign
+# Crunchyroll Landing Page Redesign
