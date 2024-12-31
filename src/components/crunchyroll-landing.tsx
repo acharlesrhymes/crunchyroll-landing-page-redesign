@@ -13,10 +13,10 @@ export function CrunchyrollLandingComponent() {
   const [submitMessage, setSubmitMessage] = useState('')
 
   const featuredAnime = [
-    { title: "Demon Slayer: Kimetsu no Yaiba", image: "/images/cover.png?height=540&width=960&text=Demon+Slayer" },
-    { title: "Jujutsu Kaisen", image: "/images/cover_1.webp?height=540&width=960&text=Jujutsu+Kaisen" },
-    { title: "One Piece", image: "/images/cover_2.avif?height=540&width=960&text=One+Piece" },
-    { title: "My Hero Academia", image: "/images/cover_3.avif?height=540&width=960&text=My+Hero+Academia" },
+    { title: "Demon Slayer: Kimetsu no Yaiba", image: "./images/cover.png?height=540&width=960&text=Demon+Slayer" },
+    { title: "Jujutsu Kaisen", image: "./images/cover_1.webp?height=540&width=960&text=Jujutsu+Kaisen" },
+    { title: "One Piece", image: "./images/cover_2.avif?height=540&width=960&text=One+Piece" },
+    { title: "My Hero Academia", image: "./images/cover_3.avif?height=540&width=960&text=My+Hero+Academia" },
   ]
 
   const handleSubmit = async (e: React.FormEvent) => {
