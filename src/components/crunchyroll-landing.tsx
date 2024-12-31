@@ -34,7 +34,7 @@ export function CrunchyrollLandingComponent() {
       <header className="px-4 lg:px-6 h-16 flex items-center">
         <Link className="flex items-center justify-center" href="/">
           <Image
-            src="/images/Crunchyroll_Logo_1.png"
+            src="./images/Crunchyroll_Logo_1.png"
             alt="Crunchyroll"
             width={150}
             height={32}
@@ -42,7 +42,7 @@ export function CrunchyrollLandingComponent() {
             priority
             onError={(e) => {
               console.error('Image failed to load');
-              e.currentTarget.src = "/placeholder.svg?height=32&width=150&text=Crunchyroll";
+              e.currentTarget.src = "./placeholder.svg?height=32&width=150&text=Crunchyroll";
             }}
           />
           <span className="sr-only">Crunchyroll</span>
@@ -66,7 +66,7 @@ export function CrunchyrollLandingComponent() {
         <section 
           className="w-full py-6 md:py-12 lg:py-16 xl:py-24 relative"
           style={{
-            backgroundImage: "url('/images/Banner.jpeg')",
+            backgroundImage: "url('./images/Banner.jpeg')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
@@ -76,7 +76,7 @@ export function CrunchyrollLandingComponent() {
           <div className="container px-4 md:px-6 max-w-screen-xl mx-auto relative z-10">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <Image
-                src="/images/Hime.webp"
+                src="./images/Hime.webp"
                 width={500}
                 height={500}
                 alt="Anime hero image"
